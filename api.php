@@ -13,7 +13,7 @@
 //siguiente sitio web: https://p.nomics.com/cryptocurrency-bitcoin-api
 
 $ch = curl_init();
-curl_setopt($ch, CURLOPT_URL, "https://api.nomics.com/v1/currencies/ticker?key=6903383d34a9e34c22628ee87e17f0e3");
+curl_setopt($ch, CURLOPT_URL, "https://api.nomics.com/v1/currencies/ticker?key=#######");
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 // $output contendrá el resultado de la petición //La respuesta en JSON // Al mismo tiempo ejecutamos la petición
 $output = curl_exec($ch);
